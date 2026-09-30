@@ -19,7 +19,7 @@ ARG PIP_USE_OFFICIAL=0
 # 导致 git/ffmpeg 未安装时仍生成不可用镜像。这里把“写入软件源”“安装”
 # 和“三次重试”拆成边界清晰的 shell 函数，并用函数返回值决定是否继续。
 # 所有软件源统一使用 HTTPS，避免部分网络环境直接拦截明文 HTTP 请求。
-#RUN set -u; \
+RUN set -u; \
     write_debian_sources() { \
         main_url="$1"; \
         security_url="$2"; \
