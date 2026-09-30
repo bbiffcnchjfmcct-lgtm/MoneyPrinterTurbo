@@ -658,10 +658,10 @@ open_task_folder_on_completion = true
 
 # The WebUI writes the remaining preferences automatically. Uncomment values
 # below only when you want to define initial defaults manually.
-# language = "zh"
-# video_language = ""
+# language = "Hi"
+# video_language = "hi"
 # paragraph_number = 1
-# video_script_prompt = ""
+# video_script_prompt = "breaking new about trending topics across India"
 # custom_system_prompt = ""
 # loomloom_candidate_count = 3
 # loomloom_script_duration_seconds = 60
